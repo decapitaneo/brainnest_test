@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.back{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./images/istockphoto-1354441996-170667a.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2rem;
+}
+
+form {
+    margin: auto;
+    width: 100%;
+}
+
+h1{
+    font-size: 2.5rem;
+    color: darkred;
+}
+
+#warningTxt {
+    display: flex;
+    justify-content: center;
+    color: darkred;
+    font-size: 1.2rem;
+    padding-top: 0.6rem;
+    font-weight: bold;
+}
+
+.form-group input {
+    height: 2.5rem;
+    width: 100%;
+    box-shadow: 0.6px 0.6px #ddd;
+    border: rgb(248, 243, 243)  solid 0.6px;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+    margin-top: 1rem;
+    font-weight: bolder;
+}
+
+.form-group label {
+    font-size: 1.6rem;
+    color: darkred;
+    font-weight: bold;
+}
+
+
+small {
+    display: flex;
+    justify-content: center;
+    color: darkred;
+    font-size: 1rem;
+    padding-top: 0.5;
+}
+
+select {
+    width: 100%;
+    padding: 0.7rem;
+    border: rgb(248, 243, 243)  solid 0.6px;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: 0;
+    color: #72736E;
+    font-weight: bold;
+   
+}
+
+.label {
+    margin-top:1rem;
+}
+
+.btn {
+    width: 100%;
+    box-shadow: 0.6px 0.6px #ddd;
+    border: rgb(248, 243, 243)  solid 0.6px;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-weight: bolder;
+    font-size: 1.8rem;
+    color: darkred;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.table {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:#ddd;
+    margin-top: 1rem;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    font-size: 1.6rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5REM;
+    color: darkred;
+    font-weight: bold;
+}
+
+.cabecalho span {
+    width: 15%;
+}
+
+.book {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    font-size: 1.6rem;
+    padding-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.book h2 {
+    width: 15%;
+}
+
+.book p {
+    width: 15%;
+}
+
+.book button {
+    width: 14%;
+}
+
+span {
+    width: 20%;
+}
+
+
+.book h2 {
+    font-size: 1.4rem;
+}
+
+
+.book button {
+    box-shadow: 0.4px 0.4px #ddd;
+    border: darkred  solid 0.6px;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: darkred;
+    cursor: pointer;
+}
+
+.book .read {
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.book .delete {
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+

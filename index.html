@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Library Test</title>
+</head>
+<body>
+        <main class="back">
+            <div class="container">
+                <h1>Library</h1>
+                <div id="warningTxt">
+                    <p id="message"></p>
+                </div>
+                <form action="" autocomplete="off" id="book-form" data-form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="title" placeholder="Title" data-title>
+                        <small id="titleValidation" id="validacao"></small>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="author" placeholder="Author" data-author>
+                        <small id="authorValidation" id="validacao"></small>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="isbn" placeholder="ISBN" data-isbn>
+                        <small id="isbnValidation" id="validacao"></small>
+                    </div>
+                    <div class="form-group">
+                        <input type="number" class="form-control" id="pages" placeholder="Pages" data-pages>
+                        <small id="pagesValidation" id="validacao"></small>
+                    </div>
+                    <div class="form-group label">
+                        <label for="read">Read the book?</label><br />
+                        <select name="read" id="read" data-read>
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>
+        
+                    <input type="submit" value="Add Book" class="btn">
+                    <div class="table">
+                        <div class="cabecalho">
+                            <span>Title</span>
+                            <span>Author</span>
+                            <span>ISBN</span>
+                            <span>Pages</span>
+                            <span>Read</span>
+                            <span>Status</span>
+                            <span>Removal</span>
+                        </div>
+                        <div class="test" data-library></div>
+                    </div>
+                </form>
+            </div>
+        </main>
+    <script type="module" src="./dist/bundle.js"></script>   
+</body>
+</html>
